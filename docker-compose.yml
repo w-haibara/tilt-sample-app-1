@@ -1,0 +1,7 @@
+services:
+  app1:
+    image: sample/app1
+    container_name: sample_app1
+    build: .
+    ports:
+      - "3000:3000"
